@@ -1,0 +1,22 @@
+{
+  "name": "mut-checker",
+  "version": "1.0.5",
+  "description": "A utility to check players' stats",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mut",
+    "madden"
+  ],
+  "author": "Don Carpenter <donwcarpenter@gmail.com>",
+  "license": "ISC",
+  "bin": {
+    "mut-get-latest": "./index.js"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.69.0"
+  }
+}
